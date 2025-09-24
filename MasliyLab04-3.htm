@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>4.3</title>
+</head>
+<body background="Backgrnd2.jpg" text="#ffffff">
+
+    <!-- 1. Текст у рядку коливається -->
+    <marquee width="100%" height="100" bgcolor="#ff6666" direction="up" behavior="alternate">
+        <font color="#ffffff" face="Arial" size="4">Нью-Йорк: сьогодні сонячно, +25°C, без опадів</font>
+    </marquee>
+    <br>
+
+    <!-- 2. Послідовність рисунків пробігає знизу догори та з’являється знову -->
+    <marquee width="100%" height="100" bgcolor="#66cc66" direction="up" behavior="scroll">
+        <img src="image1.jpg" height="80">
+        <img src="image2.jpg" height="80">
+        <img src="image3.jpg" height="80">
+    </marquee>
+    <br>
+
+    <!-- 3. Послідовність рисунків пробігає згори донизу із зупинкою -->
+    <marquee width="100%" height="100" bgcolor="#6699ff" direction="down" behavior="slide">
+        <img src="image4.jpg" height="80">
+        <img src="image5.jpg" height="80">
+    </marquee>
+    <br>
+
+    <!-- 4. Текст із різним режимом запізнення (повільніше) -->
+    <marquee width="100%" height="100" bgcolor="#ffcc66" direction="up" scrollamount="2" scrolldelay="150">
+        <font color="#ffffff" face="Arial" size="4">Париж: мінлива хмарність, +20°C, легкий дощ ввечері</font>
+    </marquee>
+    <br>
+
+    <!-- 5. Текст із різним режимом запізнення (швидше) -->
+    <marquee width="100%" height="100" bgcolor="#cc66cc" direction="up" scrollamount="10" scrolldelay="50">
+        <font color="#ffffff" face="Arial" size="4">Київ: сонячно, +23°C, без опадів</font>
+    </marquee>
+    <br>
+
+</body>
+</html>
